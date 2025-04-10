@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Andy-Personal-Website/static/css/main.e96f071d.chunk.css",
+    "main.js": "/Andy-Personal-Website/static/js/main.3dd1ade8.chunk.js",
+    "main.js.map": "/Andy-Personal-Website/static/js/main.3dd1ade8.chunk.js.map",
+    "runtime-main.js": "/Andy-Personal-Website/static/js/runtime-main.70d9a9b4.js",
+    "runtime-main.js.map": "/Andy-Personal-Website/static/js/runtime-main.70d9a9b4.js.map",
+    "static/js/2.e54f28c3.chunk.js": "/Andy-Personal-Website/static/js/2.e54f28c3.chunk.js",
+    "static/js/2.e54f28c3.chunk.js.map": "/Andy-Personal-Website/static/js/2.e54f28c3.chunk.js.map",
+    "index.html": "/Andy-Personal-Website/index.html",
+    "precache-manifest.2aa60c6183f68e839ecaffd7f43e3622.js": "/Andy-Personal-Website/precache-manifest.2aa60c6183f68e839ecaffd7f43e3622.js",
+    "service-worker.js": "/Andy-Personal-Website/service-worker.js",
+    "static/css/main.e96f071d.chunk.css.map": "/Andy-Personal-Website/static/css/main.e96f071d.chunk.css.map",
+    "static/js/2.e54f28c3.chunk.js.LICENSE.txt": "/Andy-Personal-Website/static/js/2.e54f28c3.chunk.js.LICENSE.txt",
+    "static/media/Andy_CV_042025.pdf": "/Andy-Personal-Website/static/media/Andy_CV_042025.b05aabc5.pdf",
+    "static/media/CRUW3D_cover.jpg": "/Andy-Personal-Website/static/media/CRUW3D_cover.e12792a9.jpg",
+    "static/media/CrossCheck_Cover.jpg": "/Andy-Personal-Website/static/media/CrossCheck_Cover.d020252f.jpg",
+    "static/media/MonoTAKD_cover.jpg": "/Andy-Personal-Website/static/media/MonoTAKD_cover.54486c24.jpg",
+    "static/media/andy.jpg": "/Andy-Personal-Website/static/media/andy.96451585.jpg",
+    "static/media/cenrad_banner.jpg": "/Andy-Personal-Website/static/media/cenrad_banner.7be25869.jpg",
+    "static/media/game-illusionization_cover.jpg": "/Andy-Personal-Website/static/media/game-illusionization_cover.5ffd8f46.jpg",
+    "static/media/hapticGoRoundImg1.jpg": "/Andy-Personal-Website/static/media/hapticGoRoundImg1.3f8f42f7.jpg",
+    "static/media/hapticGoRoundImg2.jpg": "/Andy-Personal-Website/static/media/hapticGoRoundImg2.d25ed4d4.jpg",
+    "static/media/hapticGoRoundImg3.jpg": "/Andy-Personal-Website/static/media/hapticGoRoundImg3.d0320b04.jpg",
+    "static/media/hapticGoRoundImg4.jpg": "/Andy-Personal-Website/static/media/hapticGoRoundImg4.32bdad95.jpg",
+    "static/media/hapticGoRoundImg5.jpg": "/Andy-Personal-Website/static/media/hapticGoRoundImg5.890abf00.jpg",
+    "static/media/impossible-staircase_banner.jpg": "/Andy-Personal-Website/static/media/impossible-staircase_banner.d844a137.jpg",
+    "static/media/impossible-staircase_cover.jpg": "/Andy-Personal-Website/static/media/impossible-staircase_cover.c708cea2.jpg",
+    "static/media/rtpose_cover.jpg": "/Andy-Personal-Website/static/media/rtpose_cover.8af21047.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.70d9a9b4.js",
+    "static/js/2.e54f28c3.chunk.js",
+    "static/css/main.e96f071d.chunk.css",
+    "static/js/main.3dd1ade8.chunk.js"
+  ]
+}
