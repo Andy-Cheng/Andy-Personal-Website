@@ -1,24 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.e96f071d.chunk.css",
-    "main.js": "/static/js/main.a49539e3.chunk.js",
-    "main.js.map": "/static/js/main.a49539e3.chunk.js.map",
+    "main.js": "/static/js/main.5a01b5ec.chunk.js",
+    "main.js.map": "/static/js/main.5a01b5ec.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3ffe4768.js",
     "runtime-main.js.map": "/static/js/runtime-main.3ffe4768.js.map",
-    "static/js/2.5892ed76.chunk.js": "/static/js/2.5892ed76.chunk.js",
-    "static/js/2.5892ed76.chunk.js.map": "/static/js/2.5892ed76.chunk.js.map",
+    "static/js/2.557d9bf5.chunk.js": "/static/js/2.557d9bf5.chunk.js",
+    "static/js/2.557d9bf5.chunk.js.map": "/static/js/2.557d9bf5.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.fcb6155f0d5264ff9973da3d657b4079.js": "/precache-manifest.fcb6155f0d5264ff9973da3d657b4079.js",
+    "precache-manifest.6aff13545d519b9babae44ad174514fe.js": "/precache-manifest.6aff13545d519b9babae44ad174514fe.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.e96f071d.chunk.css.map": "/static/css/main.e96f071d.chunk.css.map",
-    "static/js/2.5892ed76.chunk.js.LICENSE.txt": "/static/js/2.5892ed76.chunk.js.LICENSE.txt",
+    "static/js/2.557d9bf5.chunk.js.LICENSE.txt": "/static/js/2.557d9bf5.chunk.js.LICENSE.txt",
     "static/media/Andy_CV_042025.pdf": "/static/media/Andy_CV_042025.bd35b32d.pdf",
     "static/media/CRUW3D_cover.jpg": "/static/media/CRUW3D_cover.e12792a9.jpg",
     "static/media/CrossCheck_Cover.jpg": "/static/media/CrossCheck_Cover.d020252f.jpg",
     "static/media/MonoTAKD_cover.jpg": "/static/media/MonoTAKD_cover.54486c24.jpg",
     "static/media/andy.jpg": "/static/media/andy.96451585.jpg",
     "static/media/cenrad_banner.jpg": "/static/media/cenrad_banner.7be25869.jpg",
-    "static/media/data_pipeline.png": "/static/media/data_pipeline.19430c03.png",
     "static/media/game-illusionization_cover.jpg": "/static/media/game-illusionization_cover.5ffd8f46.jpg",
     "static/media/hapticGoRoundImg1.jpg": "/static/media/hapticGoRoundImg1.3f8f42f7.jpg",
     "static/media/hapticGoRoundImg2.jpg": "/static/media/hapticGoRoundImg2.d25ed4d4.jpg",
@@ -28,14 +27,12 @@
     "static/media/impossible-staircase_banner.jpg": "/static/media/impossible-staircase_banner.d844a137.jpg",
     "static/media/impossible-staircase_cover.jpg": "/static/media/impossible-staircase_cover.c708cea2.jpg",
     "static/media/rtpose_cover.jpg": "/static/media/rtpose_cover.8af21047.jpg",
-    "static/media/sft_data_example.png": "/static/media/sft_data_example.e5699354.png",
-    "static/media/teaser.png": "/static/media/teaser.2b149475.png",
-    "static/media/training_pipeline.png": "/static/media/training_pipeline.6dee3063.png"
+    "static/media/teaser.png": "/static/media/teaser.2b149475.png"
   },
   "entrypoints": [
     "static/js/runtime-main.3ffe4768.js",
-    "static/js/2.5892ed76.chunk.js",
+    "static/js/2.557d9bf5.chunk.js",
     "static/css/main.e96f071d.chunk.css",
-    "static/js/main.a49539e3.chunk.js"
+    "static/js/main.5a01b5ec.chunk.js"
   ]
 }
