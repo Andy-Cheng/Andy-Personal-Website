@@ -10,9 +10,15 @@ import CRUW3DCover from '../../images/CRUW3D_cover.jpg';
 import CRAFTBoosterCover from '../../images/CrossCheck_Cover.jpg';
 import RTPCover from '../../images/rtpose_cover.jpg';
 import MonoTAKD from '../../images/MonoTAKD_cover.jpg';
-
+import TEMPURACover from '../../images/tempura/teaser.png';
 
 const WORKS = [
+  {
+    title: 'TEMPURA',
+    description: "Arxiv Preprint",
+    mediaSrc: TEMPURACover,
+    path: PROJECTS.TEMPURA
+  },
   {
     title: 'MonoTAKD',
     description: "Published on CVPR '25",

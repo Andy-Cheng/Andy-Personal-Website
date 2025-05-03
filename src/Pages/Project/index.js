@@ -25,6 +25,8 @@ const Project = ({ location }) => {
       return <ExternalLink title="RT-Pose" link="https://github.com/ipl-uw/RT-POSE"/>;
     case PROJECTS.MONOTAKD:
       return <ExternalLink title="MonoTAKD" link="https://arxiv.org/abs/2404.04910"/>;
+    case PROJECTS.TEMPURA:
+      return <ExternalLink title="TEMPURA" link="https://andy-cheng.github.io/TEMPURA/"/>;
     default:
       return <ComingSoon />;
   }

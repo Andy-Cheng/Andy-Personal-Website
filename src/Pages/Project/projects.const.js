@@ -7,3 +7,4 @@ export const CRUW3D = 'CRUW3D';
 export const CRAFTBOOSTER = 'CRAFTBOOSTER';
 export const RTPOSE = 'RTPOSE';
 export const MONOTAKD = 'MONOTAKD';
+export const TEMPURA = 'TEMPURA';

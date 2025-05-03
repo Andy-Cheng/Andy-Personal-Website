@@ -247,7 +247,17 @@ const About = () => (
 
                         <TimelineItemLong1>
                             <Typography.Text >
-                                Joined Microsoft as a research intern at the Phi-3 Vision team to work on multi-modal language models. I was fortunate to have <Anchor href="https://scholar.google.com/citations?user=M_fwZg0AAAAJ" style={{ color: "darkblue" }}>Qin Cai</Anchor>, <Anchor href="https://scholar.google.com/citations?user=jI5oDhYAAAAJ" style={{ color: "darkblue" }}>Yi-Ling Chen</Anchor> and <Anchor href="https://vibhav-vineet.github.io/" style={{ color: "darkblue" }}>Vibhav Vineet</Anchor> as my mentors.
+                                Joined Microsoft as a research intern to work on multi-modal language models. I was fortunate to have <Anchor href="https://scholar.google.com/citations?user=M_fwZg0AAAAJ" style={{ color: "darkblue" }}>Qin Cai</Anchor>, <Anchor href="https://scholar.google.com/citations?user=jI5oDhYAAAAJ" style={{ color: "darkblue" }}>Yi-Ling Chen</Anchor> and <Anchor href="https://vibhav-vineet.github.io/" style={{ color: "darkblue" }}>Vibhav Vineet</Anchor> as my mentors.  
+                                <Link
+                                    to={{
+                                        pathname: `/project`,
+                                        hash: PROJECTS.TEMPURA
+                                    }}
+                                    className="link"
+                                    style={{ color: "darkblue", marginLeft: "2px" }}
+                                >
+                                    TEMPURA
+                                </Link>
                                 <br />
                                 2024-06~2024-12
                             </Typography.Text>

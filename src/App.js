@@ -8,23 +8,15 @@ import NotFound from './Pages/NotFound';
 import ComingSoon from './Pages/ComingSoon';
 import './App.less';
 import { Header, Title } from './App.style';
-import TEMPURA from './Pages/StandalonePages/TEMPURA';
 
 const { Content, Footer } = Layout;
 const { Item } = Menu;
 
 const AppLayout = () => {
-  const [showHeader, setShowHeader] = useState(true);
-  const location = useLocation();
-
-  useEffect(() => {
-    console.log(location.pathname);
-    setShowHeader(location.pathname !== '/tempura');
-  }, [location.pathname]);
 
   return (
     <Layout style={{ backgroundColor: '#000', height: '100%' }}>
-      {showHeader && (
+      {
         <Header
           style={{
             position: 'fixed',
@@ -61,7 +53,7 @@ const AppLayout = () => {
             </Item>
           </Menu>
         </Header>
-      )}
+      }
       <Content
         style={{
           color: '#fff'
@@ -76,9 +68,6 @@ const AppLayout = () => {
           </Route>
           <Route path="/works">
             <Works />
-          </Route>
-          <Route path="/tempura">
-            <TEMPURA />
           </Route>
           <Route path="/">
             <About />
