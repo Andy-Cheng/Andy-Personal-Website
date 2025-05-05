@@ -16,7 +16,7 @@ import {
 } from '../Project/Parent.style';
 import AndyImg from '../../images/andy.jpg';
 import * as PROJECTS from '../Project/projects.const';
-import cv from '../../documents/Andy_CV_042025.pdf';
+import cv from '../../documents/Andy_CV_052025.pdf';
 import { TimelineItemShort, TimelineItemMedium, TimelineItemLong1, TimelineItemLong2 } from '../../components/Timelines';
 const About = () => (
     <Container style={{ marginTop: 64 }}>
