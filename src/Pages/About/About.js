@@ -3,7 +3,7 @@ import { Typography, Avatar, Timeline } from 'antd';
 import Paragraph from '../../components/Paragraph';
 import { ClockCircleOutlined, HomeOutlined, FileOutlined, LikeOutlined } from '@ant-design/icons';
 import { Link } from 'react-router-dom';
-import { GithubIcon, GoogleScholarIcon, YouTubeIcon, UWHuskyIcon } from '../../components/Icons';
+import { GithubIcon, GoogleScholarIcon, YouTubeIcon, UWHuskyIcon, LinkedInIcon } from '../../components/Icons';
 import {
     Container,
     ContentOuter,
@@ -16,7 +16,6 @@ import {
 } from '../Project/Parent.style';
 import AndyImg from '../../images/andy.jpg';
 import * as PROJECTS from '../Project/projects.const';
-import cv from '../../documents/Andy_CV_052025.pdf';
 import { TimelineItemShort, TimelineItemMedium, TimelineItemLong1, TimelineItemLong2 } from '../../components/Timelines';
 const About = () => (
     <Container style={{ marginTop: 64 }}>
@@ -25,25 +24,18 @@ const About = () => (
                 <Avatar style={{ marginLeft: "50%", transform: "translateX(-50%)" }} size={150} src={AndyImg} />
                 <Title>About Me</Title>
                 <Typography.Title level={5} style={{ color: "gray", marginBottom: "10px", marginTop: "40px", textAlign: "center" }}>
-                    AI Researcher / VR Developer / Web Developer
+                    PhD Student @ <Anchor href="https://www.washington.edu/" style={{ color: "gray" }}>UW</Anchor> / Research Engineer @ <Anchor href="https://www.worldlabs.ai/" style={{ color: "gray" }}>World Labs</Anchor>
                 </Typography.Title>
                 <Typography.Title level={5} style={{ color: "gray", marginBottom: "10px", marginTop: "20px", textAlign: "center" }}>
-                    <Anchor href="https://github.com/Andy-Cheng"><GithubIcon style={{ fontSize: "40px", marginRight: "10px" }} /></Anchor>  <Anchor href="https://scholar.google.com/citations?user=UrH4PK4AAAAJ"><GoogleScholarIcon style={{ fontSize: "40px", marginRight: "10px" }} /></Anchor>  <Anchor href="https://www.youtube.com/@jen-haocheng8594"><YouTubeIcon style={{ fontSize: "40px", marginRight: "10px" }} /></Anchor>
+                    <Anchor href="https://github.com/Andy-Cheng"><GithubIcon style={{ fontSize: "40px", marginRight: "10px" }} /></Anchor>  <Anchor href="https://scholar.google.com/citations?user=UrH4PK4AAAAJ"><GoogleScholarIcon style={{ fontSize: "40px", marginRight: "10px" }} /></Anchor>  <Anchor href="https://www.youtube.com/@jen-haocheng8594"><YouTubeIcon style={{ fontSize: "40px", marginRight: "10px" }} /></Anchor>  <Anchor href="https://www.linkedin.com/in/andy-cheng-139367142/"><LinkedInIcon style={{ fontSize: "40px", marginRight: "10px" }} /></Anchor>
                 </Typography.Title>
-                <Typography.Title level={5} style={{ color: "gray", textAlign: "center", textDecoration: "underline"}}>
-                <Anchor href={cv} target="_blank" rel="noopener noreferrer" style={{ color: "gray", fontWeight: "lighter" }}>
-                    My Resume
-                </Anchor>
-                </Typography.Title>
-
-                <Paragraph>
-                    Hi, I’m Jen-Hao Cheng, but I go by Andy. I’m currently a Ph.D. student at the University of Washington, advised by <Anchor href="https://people.ece.uw.edu/hwang/" style={{ color: "darkblue" }}>Dr. Jenq-Neng Hwang</Anchor> in the <Anchor href="https://ipl-uw.github.io/" style={{ color: "purple" }}>Information Processing Lab (IPL)</Anchor>. My research interests lie in understanding how humans perceive the world and enabling computers to perceive and interpret it in similar ways. This passion drives my work at the intersection of human-computer interaction, computer vision, and multi-modal language models.
+                <Paragraph style={{ fontSize: "20px" }}>
+                    Hi, I’m Andy. I’m a Ph.D. student at the University of Washington, advised by <Anchor href="https://people.ece.uw.edu/hwang/" style={{ color: "darkblue" }}>Dr. Jenq-Neng Hwang</Anchor> in the <Anchor href="https://ipl-uw.github.io/" style={{ color: "purple" }}>Information Processing Lab (IPL)</Anchor>. My research interests lie in 3D/4D generative models for dynamic and immersive visual content creation, particularly multi-view video generation and scalable data pipelines for world models.
                 </Paragraph>
 
-                <Paragraph>
-                    I spent three wonderful years as an undergraduate research assistant at National Taiwan University (NTU). I was incredibly lucky to be mentored by my favorite researcher in the world, <Anchor href="https://www.lungpancheng.tw/" style={{ color: "darkblue" }}>Dr. Lung-Pan Cheng</Anchor>. Working with him inspired me to pursue a Ph.D., as he showed me how to appreciate the beauty of research. From him, I learned how to think critically, turn bold and unconventional ideas into reality, and grow into a better leader.
-                    Most importantly, beyond technical skills, he taught me how research can impact society and improve people’s lives.
-                    I’m also fortunate to have had <Anchor href="https://www.ee.ntu.edu.tw/profile1.php?id=66" style={{ color: "darkblue" }}>Dr. Wanjiun Liao</Anchor> as my undergraduate advisor. She emphasized the value of strong fundamentals and encouraged me to think creatively and embrace innovative thinking.
+                <Paragraph style={{ fontSize: "20px" }}>
+                    I spent three wonderful years as an undergraduate research assistant at National Taiwan University (NTU). I was incredibly lucky to be mentored by my favorite researcher in the world, <Anchor href="https://www.lungpancheng.tw/" style={{ color: "darkblue" }}>Dr. Lung-Pan Cheng</Anchor>. Working with him inspired me to pursue a Ph.D., as he showed me how to appreciate the beauty of research.
+                    I’m also fortunate to have had <Anchor href="https://www.ee.ntu.edu.tw/profile1.php?id=66" style={{ color: "darkblue" }}>Dr. Wanjiun Liao</Anchor> as my undergraduate advisor.
                 </Paragraph>
 
 
@@ -206,10 +198,7 @@ const About = () => (
 
                         <TimelineItemMedium dot={<LikeOutlined style={{ fontSize: '14px', color: "green" }} />}>
                             <Typography.Text >
-                                Passed my qualification exam
-                                <br />
-                                Committee: Dr. Radha Poovendran, Dr. Linda Shapiro, Dr. Rania Hussein
-                                , 2024-05
+                                Passed my Ph.D. qualification exam, 2024-05
                             </Typography.Text>
                         </TimelineItemMedium>
 
@@ -256,13 +245,19 @@ const About = () => (
 
                         <TimelineItemLong2>
                             <Typography.Text >
-                                I am currently studying and working on <Anchor href="https://youtu.be/uhLDHA9skFk?si=i6hXbsjzVfS57GWb" style={{ color: "darkblue" }}>Physical AI</Anchor>, with a focus on enhancing robots’ ability to perceive the world and take appropriate actions through improved multi-modal language-action models. I firmly believe that Physical AI is the future of both industry and the global economy, and I’m excited to be part of this evolving journey.
+                                Research Engineer at <Anchor href="https://www.worldlabs.ai/" style={{ color: "darkblue" }}>World Labs</Anchor>
                                 <br />
-                                If you’re interested in this area, feel free to reach out to me via <Anchor href="mailto:andyhci@uw.edu" style={{ color: "darkblue" }}>email</Anchor>—let’s collaborate and push the boundaries of Physical AI together!
+                                At World Labs, I worked on data pipelines for Marble, supporting world model training through large-scale data collection, curation, and processing.
                                 <br />
-                                2025-03 ~ Present
+                                2025-06 ~ Present
                             </Typography.Text>
                         </TimelineItemLong2>
+
+                        <TimelineItemMedium dot={<LikeOutlined style={{ fontSize: '14px', color: "green" }} />}>
+                            <Typography.Text >
+                                Passed my Ph.D. general exam, 2026-06
+                            </Typography.Text>
+                        </TimelineItemMedium>
                     </Timeline>
                     {/* <Typography.Title level={5} style={{ color: "gray", textAlign: "center" }}>
                         .

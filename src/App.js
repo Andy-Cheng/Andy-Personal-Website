@@ -35,10 +35,13 @@ const AppLayout = () => {
           </Link>
           <Menu
             mode="horizontal"
+            disabledOverflow
             style={{
               display: 'flex',
               flexDirection: 'row',
-              justifyContent: 'flex-end'
+              justifyContent: 'flex-end',
+              minWidth: 0,
+              flex: 'auto'
             }}
             defaultSelectedKeys={['1']}
           >
@@ -47,9 +50,6 @@ const AppLayout = () => {
             </Item>
             <Item key="2">
               <Link to="/works">Works</Link>
-            </Item>
-            <Item key="3">
-              <Link to="/notes">My Notes</Link>
             </Item>
           </Menu>
         </Header>
@@ -78,7 +78,7 @@ const AppLayout = () => {
         </Switch>
       </Content>
       <Footer style={{ textAlign: 'center' }}>
-        Jen-Hao Cheng, 2025
+        Jen-Hao Cheng, 2026
         <br />
         <a href="https://github.com/Andy-Cheng/Andy-Personal-Website" style={{ color: 'darkblue' }}>
           Website Source Code
